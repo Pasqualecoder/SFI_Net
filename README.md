@@ -20,3 +20,27 @@
 
 ## Struttura sito
 **Tipologia:** **Comerciale** *poiché deve essere venduto il servizio in abbonamento*
+
+---
+---
+---
+
+# Traccia
+Vogliamo creare un sito web che gestisca la distribuzione via internet di film e serie televisive a pagamento. Progettare la struttura partendo dalle seguenti specifiche:
+
+- Gestire una sezione che preveda la registrazione di nuovi utenti;
+- Gestire account;
+- Gestire la sezione film e serie TV;
+- Gestire i vari generi;
+- Gestire una sezione di centro assistenza
+
+Proporre una soluzione con:
+- Analisi delle specifiche 
+- target di utenza
+- cosa comunicare/pubblicare
+- aree del sito
+- descrizione contenuto / comportamento utente
+
+Definizione della struttura del sito con le varie pagine e i collegamentimappa di navigazione e/o casi d’uso come si intende pubblicare/aggiornare pubblicizzare il sito.
+
+Realizzazione sito tramite linguaggio HTML, CSS, JavaScript.
