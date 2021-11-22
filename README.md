@@ -19,7 +19,7 @@
 - **Metodo di pubblicazione** *il sito potrebbe essere pubblicato con un host in provider come ad esempio [Altervista](https://it.altervista.org).*
 
 ## Struttura sito
-**Tipologia:** **Comerciale** *poiché deve essere venduto il servizio in abbonamento*
+**Tipologia:** **Commerciale** *poiché deve essere venduto il servizio in abbonamento*
 
 ---
 ---
