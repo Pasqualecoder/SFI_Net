@@ -44,3 +44,22 @@ Proporre una soluzione con:
 Definizione della struttura del sito con le varie pagine e i collegamentimappa di navigazione e/o casi d’uso come si intende pubblicare/aggiornare pubblicizzare il sito.
 
 Realizzazione sito tramite linguaggio HTML, CSS, JavaScript.
+
+---
+---
+---
+
+- Qual è il target di utenza che vogliamo raggiungere?
+- Il target che vogliamo raggiungere sono gli utenti meno esperti che vogliono intrattenersi nella visione di un film o serie TV.
+- Che cosa vogliamo pubblicare/comunicare?
+- Gli argomenti che vengono pubblicati possono essere film, serie TV, 
+- Come organizziamo il contenuto (struttura del sito)?
+- 
+- Come lo pubblichiamo?
+- 
+- Come verifichiamo la sua completezza e la sua correttezza? 
+- 
+- Come lo teniamo aggirnato?
+- 
+- Come lo pubblicizziamo?
+- 
