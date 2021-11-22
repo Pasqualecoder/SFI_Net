@@ -1,0 +1,2 @@
+LOGOUT
+<a href="#" style="float: right;"><i class="fa fa-fw fa-sign-in"></i>Log Out</a>
