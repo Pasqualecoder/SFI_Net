@@ -84,11 +84,70 @@ body {
 /*NAVIGATION BAR*/
 
 
-
 /*FOOTER*/
 footer {
   background-color: black;
   text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
+
+.button {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+}
+
+
+div.login {
+  text-align: center;
+  margin-top: 50px;
+  height: 100%;
+}
+
+div.dati {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+div.datisign {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+fieldset {
+  font-family: sans-serif;
+  border: 5px solid white;
+  background: #333;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+fieldset legend {
+  background: red;
+  padding: 5px 10px 0px 10px;
+  font-size: 15px;
+  border-radius: 30px;
+  margin-left: 20px;
+}
+
+td {
+  text-align: right;
+  padding-bottom: 15px;
+}
+td.age {
+  text-align: left;
+  padding-bottom: 15px;
+}
+
 
 
