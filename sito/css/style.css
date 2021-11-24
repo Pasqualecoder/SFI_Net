@@ -4,6 +4,36 @@ body {
   color: white;
 }
 
+a {
+  color: white;
+  text-decoration: none;
+  
+}
+
+/*ANIMAZIONE LOGO FOOTER*/
+.logohover:hover {
+  background-color: red;
+  animation-name: color;
+  animation-duration: 1s;
+  color: white;
+}
+@keyframes color {
+  0% {
+    background-color: #ff000000;
+  }
+  25% {
+    background-color: rgba(255, 0, 0, 0.356);
+  }
+  50% {
+    background-color: rgba(255, 0, 0, 0.507)a(255, 0, 0, 0.329);
+  }
+  75% {
+    background-color: rgba(255, 0, 0, 0.76)a(255, 0, 0, 0.329);
+  }
+  100% {
+    background-color: red;
+  }
+}
 
 /*NAVIGATION BAR*/
 /* Add a black background color to the top navigation */
@@ -86,12 +116,14 @@ body {
 
 /*FOOTER*/
 footer {
+  margin-top: 50px;
   background-color: black;
   text-align: center;
   left: 0;
   bottom: 0;
   width: 100%;
 }
+
 
 .button {
   background-color: red;
@@ -129,6 +161,7 @@ fieldset {
   background: #333;
   border-radius: 5px;
   padding: 15px;
+  margin-bottom: 30px;
 }
 
 fieldset legend {
@@ -139,7 +172,7 @@ fieldset legend {
   margin-left: 20px;
 }
 
-td {
+td.login {
   text-align: right;
   padding-bottom: 15px;
 }
@@ -150,3 +183,69 @@ td.age {
 
 
 
+
+/*SOCIAL*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.box{  
+  width: 300px;  
+  height: 58px;  
+  position: relative;  
+  display: flex;  
+  align-items: center;  
+  overflow: hidden;  
+  padding: 5px;  
+  cursor: pointer;  
+  margin: 0.6em;  
+  transition: all .4s;  
+}  
+.box:hover{  
+  width: 300px;  
+  background: #c32aa3;  
+  border-radius: 10px;  
+  color: white;  
+  box-shadow: 0 0 50px #b315917c;  
+}  
+.box:nth-child(2):hover{  
+  background: #1877f2;  
+  box-shadow: 0 0 50px #1876f285;  
+}  
+.box:nth-child(3):hover{  
+  background: #1da1f2;  
+  box-shadow: 0 0 50px #1da0f280;  
+}  
+.box:nth-child(4):hover{  
+  background: #25d366;  
+  box-shadow: 0 0 50px #25d3657e;  
+}  
+p{  
+  transform: translate(60px);  
+}  
+.box .icon{  
+  position: absolute;  
+  width: 50px;  
+  height: 50px;  
+  display: flex;  
+  justify-content: center;  
+  align-items: center;  
+  color: white;  
+  border-radius: 10px;  
+  margin-right: 10px;  
+  transition: all .4s;  
+}  
+.instagram{  
+  background: #c32aa3;  
+}  
+.facebook{  
+  background: #1877f2;  
+}  
+.twitter{  
+  background: #1da1f2;  
+}  
+.whatsapp{  
+  background: #25d366;  
+}  
+.box:hover .icon{  
+  background: white;  
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.26);  
+  color: rgb(59, 59, 59);  
+}

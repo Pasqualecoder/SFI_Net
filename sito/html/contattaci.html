@@ -5,7 +5,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer">
 
-
     <link rel="stylesheet" href="../css/style.css">
     <title>SFI_Net: Film e Serie TV</title>
   </head>
@@ -23,10 +22,10 @@
 
       <spaziatura class="space"></spaziatura>
       <a href="#about">Informazioni</a>
-      <a href="contattaci.html"><i class="fa fa-fw fa-envelope"></i>Contattaci</a>
+      <a class="active" href="contattaci.html"><i class="fa fa-fw fa-envelope"></i>Contattaci</a>
       
       
-      <a href="signup.html" class="active" style="float: right;"><i class="fa fa-fw fa-user-plus"></i>Sign up</a>
+      <a href="signup.html" style="float: right;"><i class="fa fa-fw fa-user-plus"></i>Sign up</a>
       <a href="login.html" style="float: right;"><i class="fa fa-fw fa-user"></i>Log in</a>
       <a href="javascript:void(0);" class="icon" onclick="responsiveTopBar()"><i class="fa fa-bars"></i></a>
     </div>
@@ -43,53 +42,25 @@
 
         <form method="post" action="">
           <fieldset>
-            <legend align="left"><h1>Sign up</h1></legend>
-            <div class="datisign">      
+            <legend align="left"><h1>Contattaci</h1></legend>
+            <div class="dati">
+                    
               <table align="center">
                 <tr>
-                  <td class="login"><label for="email"><i class="fa fa-fw fa-envelope"></i>Email:</label></td>
-                  <td class="login"><input type="email" id="email" name="email" required></td>
+                  <td style="padding-bottom: 15px;"><label for="email"><i class="fa fa-fw fa-envelope"></i>Email:</label></td>
+                  <td style="padding-bottom: 15px;"><input type="email" id="email" name="email" required></td>
                 </tr>  
                 <tr>
-                  <td class="login"><label for="password"><i class="fa fa-fw fa-key"></i>Password:</label></td>
-                  <td class="login"><input type="password" id="password" name="password" required></td>
-                </tr>
-                <tr>
-                  <td class="login"><label for="confpass"><i class="fa fa-fw fa-key"></i>Conferma Password:</label></td>
-                  <td class="login"><input type="password" id="confpass" name="confpass" required></td>
-                </tr>
-              </table>
-              <br>
-            </div>
-            
-            <div class="datisign">      
-              <table align="center">
-                <tr>
-                  <td class="login"><label for="nome"><i class="fa fa-fw fa-user"></i>Nome:</label></td>
-                  <td class="login"><input type="text" id="nome" name="nome" required></td>
-                </tr>  
-                <tr>
-                  <td class="login"><label for="cogmome"><i class="fa fa-fw fa-user"></i>Cognome:</label></td>
-                  <td class="login"><input type="text" id="cogmome" name="cogmome" required></td>
-                </tr>
-                <tr>
-                  <td class="login"><label for="age"><i class="fa fa-fw fa-calendar"></i>Data di nascita:</label></td>
-                  <td class="login"><input type="date" id="age" name="age" value="2000-01-01" required></td>
-                </tr>
-                <tr>
-                  <td class="login"><label for="indirizzo"><i class="fa fa-fw fa-location-arrow"></i>Indirizzo:</label></td>
-                  <td class="login"><input type="text" id="indirizzo" name="indirizzo"></td>
-                </tr>
-                <tr>
-                  <td class="login"><label for="sex"><i class="fa fa-fw fa-intersex"></i>Sesso:</label></td>
-                  <td class="age login"><i class="fa fa-fw fa-mars"></i><input type="radio" id="sex" name="sex" value="M"><br><i class="fa fa-fw fa-venus"></i><input type="radio" id="sex" name="sex" value="F"></td>
+                  <td><label for="messaggio"><i class="fa fa-fw fa-envelope-open-text"></i>Messaggio:</label></td>
+                  <td>
+                    <textarea id="messaggio" name="messaggio" rows="4" cols="50">Inserisci qui il tuo messaggio</textarea>
+                  </td>
                 </tr>
               </table>
               <br><br><br>
-              <input class="button" type="submit" value="Registrati">
+              <input class="button" type="submit" value="Invia">
             </div>
 
-            
           </fieldset>
         </form>
       </div>
@@ -98,7 +69,7 @@
 
     </div>
 
-
+   
     <!--FOOTER-->
     <footer>
       <table style="width: 100%;">
