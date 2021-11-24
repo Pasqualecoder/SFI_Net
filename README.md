@@ -12,7 +12,7 @@
 # DOCUMENTAZIONE
 
 ## Analisi
-- **target di utenza:** utenti principianti, occasionali.
+- **Target di utenza:** utenti principianti, occasionali.
 
 - **Comunucazione:** mettere a disposizione un servizio di streaming a pagamento di film e serie TV.
 
@@ -59,7 +59,7 @@ Realizzazione sito tramite linguaggio HTML, CSS, JavaScript.
 - 
 - Come verifichiamo la sua completezza e la sua correttezza? 
 - 
-- Come lo teniamo aggirnato?
+- Come lo teniamo aggiornato?
 - 
 - Come lo pubblicizziamo?
 - 
