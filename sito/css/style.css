@@ -9,6 +9,21 @@ p>a {
   text-decoration: underline;
 }
 
+p.abbonamento {
+  font-size: large;
+  text-align: center;
+}
+
+div.pagamenti {
+  width: fit-content;
+  height: fit-content;
+  display: inline;
+  padding: 50px;
+}
+div.pagamenti:hover {
+  background-color: rgba(0, 0, 0, 0.274);
+}
+
 div.icon>a {
   color: inherit;
   text-decoration: none
@@ -137,12 +152,18 @@ footer {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 20px;
+  font-size: 40px;
 }
 
 
 div.login {
   text-align: center;
+  margin-top: 50px;
+  height: 100%;
+}
+
+div.sigin {
+  width: fit-content;
   margin-top: 50px;
   height: 100%;
 }
@@ -170,12 +191,56 @@ fieldset {
 
 fieldset legend {
   background: red;
+  color: white;
   padding: 5px 10px 0px 10px;
   font-size: 15px;
   border-radius: 30px;
   margin-left: 20px;
 }
 
+fieldset .silver {
+  width: fit-content;
+  text-align: left;
+  font-family: sans-serif;
+  border: 5px solid black;
+  background: grey;
+  color: black;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+fieldset legend.silver {
+  background: silver;
+  color: black;
+  padding: 5px 10px 0px 10px;
+  font-size: 15px;
+  border-radius: 30px;
+  margin-left: 20px;
+}
+
+
+fieldset .gold {
+  width: fit-content;
+  text-align: left;
+  font-family: sans-serif;
+  border: 5px solid black;
+  background: goldenrod;
+  color: black;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+fieldset legend.gold {
+  background: goldenrod;
+  color: black;
+  padding: 5px 10px 0px 10px;
+  font-size: 15px;
+  border-radius: 30px;
+  margin-left: 20px;
+}
+
+td.login {
+  text-align: left;
+  padding-bottom: 15px;
+}
 td.login.sinistra {
   text-align: left;
   padding-bottom: 15px;
@@ -225,7 +290,7 @@ td.age {
   background: #25d366;  
   box-shadow: 0 0 50px #25d3657e;  
 }  
-p{  
+p.social {  
   transform: translate(60px);  
 }  
 .box .icon{  

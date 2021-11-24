@@ -38,12 +38,12 @@
     <!--CORPO DELLA PAGINA-->
     <div>
       
-      <div class="login">
-        <a href="home.html"><img src="../media/netflix-logo.png" width="100"></a>
+      <form method="post" action="">
+        <div class="login">
+          <a href="home.html"><img src="../media/netflix-logo.png" width="100"></a>
 
-        <form method="post" action="">
           <fieldset>
-            <legend align="left"><h1>Sign up</h1></legend>
+            <legend style="width: fit-content;" align="left"><h1 style="width: fit-content;">Sign up</h1></legend>
             <div class="datisign">      
               <table align="center">
                 <tr>
@@ -85,14 +85,52 @@
                   <td class="age login"><i class="fa fa-fw fa-mars"></i><input type="radio" id="sex" name="sex" value="M"><br><i class="fa fa-fw fa-venus"></i><input type="radio" id="sex" name="sex" value="F"></td>
                 </tr>
               </table>
-              <br><br><br>
-              <input class="button" type="submit" value="Registrati">
+              
             </div>
+            
 
             
+            
+            <h1 style="color: red; border: 5px solid red; border-radius: 20px; width: fit-content; margin-left: 38%;">Scegli il tuo abbonamento</h1>
+            <div style="display: inline;" class="sigin">
+              <fieldset style="display: inline;" class="silver">
+                <legend class="silver" align="center"><h1>Silver</h1></legend>
+                <p class="abbonamento">
+                  <i class="glyphicon glyphicon-check" style="color: green;"></i>Intero catalogo di Film e Serie TV<br>
+                  <i class="glyphicon glyphicon-remove" style="color: red;"></i>Qualità <strong>HD</strong> <br>
+                  <i class="glyphicon glyphicon-remove" style="color: red;"></i>Numero di dispositivi collegati: <strong>2</strong> <br>
+
+                  <br><br>
+                  <input type="radio" id="scelta" name="scelta" value="abbonamento">3€/mese
+                </p>
+              </fieldset>
+            </div>
+
+            <div style="display: inline;"class="sigin">
+              <fieldset style="display: inline;" class="gold">
+                <legend class="gold" align="center"><h1>Gold</h1></legend>
+                <p class="abbonamento">
+                  <i class="glyphicon glyphicon-check" style="color: green;"></i>Intero catalogo di Film e Serie TV<br>
+                  <i class="glyphicon glyphicon-check" style="color: green;"></i>Qualità <strong>4K</strong> <br>
+                  <i class="glyphicon glyphicon-check" style="color: green;"></i>Numero di dispositivi collegati: <strong>8</strong> <br>
+
+                  <br><br>
+                  <input type="radio" id="scelta" name="scelta" value="abbonamento">5€/mese
+                </p>
+              </fieldset>
+            </div>
+
+            <br><br><br>
+            
+            <div class="pagamenti"><a href="https://paypal.com"><img src="../media/paypal-logo.png" width="200"></a></div>
+            <div class="pagamenti"><a href="https://visaitalia.com"><img src="../media/visa-logo.png" width="200"></a></div>
+            <div class="pagamenti"><a href="https://mastercard.it"><img src="../media/mastercard-logo.png" width="200"></a></div>
+            <br><br>
+            
+            <input class="button" type="submit" value="Abbonati ora">
           </fieldset>
-        </form>
-      </div>
+        </div>
+      </form>
 
 
 
@@ -110,26 +148,26 @@
                   <div class="icon instagram">
                     <a href="https://instagram.com"><i class="fab fa-instagram fa-2x"></i></a>
                   </div>
-                  <p><a href="https://instagram.com">Instagram</a></p>
+                  <p class="social"><a href="https://instagram.com">Instagram</a></p>
               </div>
 
               <div class="box">
                   <div class="icon facebook">
                     <a href="https://facebook.com"><i class="fab fa-facebook fa-2x"></i></a>
                   </div>
-                  <p><a href="https://facebook.com">Facebook</a></p>
+                  <p class="social"><a href="https://facebook.com">Facebook</a></p>
               </div>
               <div class="box">
                   <div class="icon twitter">
                     <a href="https://twitter.com"><i class="fab fa-twitter fa-2x"></i></a>
                   </div>
-                  <p><a href="https://twitter.com">Twitter</a></p>
+                  <p class="social"><a href="https://twitter.com">Twitter</a></p>
               </div>
               <div class="box">
                   <div class="icon whatsapp">
                     <a href="https://whatsapp.com"><i class="fab fa-whatsapp fa-2x"></i></a>
                   </div>
-                  <p><a href="https://whatsapp.com">Whatsapp</a></p>
+                  <p class="social"><a href="https://whatsapp.com">Whatsapp</a></p>
               </div>
           </div>
 
