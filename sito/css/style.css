@@ -4,10 +4,14 @@ body {
   color: white;
 }
 
-a {
+p>a {
   color: white;
-  text-decoration: none;
-  
+  text-decoration: underline;
+}
+
+div.icon>a {
+  color: inherit;
+  text-decoration: none
 }
 
 /*ANIMAZIONE LOGO FOOTER*/
@@ -172,7 +176,11 @@ fieldset legend {
   margin-left: 20px;
 }
 
-td.login {
+td.login.sinistra {
+  text-align: left;
+  padding-bottom: 15px;
+}
+td.login.destra {
   text-align: right;
   padding-bottom: 15px;
 }
