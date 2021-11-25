@@ -15,8 +15,6 @@ p.abbonamento {
 }
 
 div.pagamenti {
-  width: fit-content;
-  height: fit-content;
   display: inline;
   padding: 50px;
 }
@@ -33,7 +31,7 @@ div.icon>a {
 .logohover:hover {
   background-color: red;
   animation-name: color;
-  animation-duration: 1s;
+  animation-duration: 0.3s;
   color: white;
 }
 @keyframes color {
@@ -41,13 +39,13 @@ div.icon>a {
     background-color: #ff000000;
   }
   25% {
-    background-color: rgba(255, 0, 0, 0.356);
+    background-color: rgba(255, 0, 0, 0.198);
   }
   50% {
-    background-color: rgba(255, 0, 0, 0.507)a(255, 0, 0, 0.329);
+    background-color: rgba(255, 0, 0, 0.335)a(255, 0, 0, 0.329);
   }
   75% {
-    background-color: rgba(255, 0, 0, 0.76)a(255, 0, 0, 0.329);
+    background-color: rgba(255, 0, 0, 0.644)a(255, 0, 0, 0.329);
   }
   100% {
     background-color: red;
