@@ -9,7 +9,7 @@ img.registrationlogo {
   border-radius: 25%;
 }
 img.registrationlogo:hover {
-  background-color: red;
+  background-color: #c2202f;
 }
 
 p>a {
@@ -41,7 +41,7 @@ div.icon>a {
   height: 100%;
 }
 .logohover:hover {
-  background-color: red;
+  background-color: #c2202f;
   animation-name: color;
   animation-duration: 0.3s;
   color: white;
@@ -60,7 +60,7 @@ div.icon>a {
     background-color: rgba(255, 0, 0, 0.644)a(255, 0, 0, 0.329);
   }
   100% {
-    background-color: red;
+    background-color: #c2202f;
   }
 }
 
@@ -84,6 +84,7 @@ div.icon>a {
   text-align: center;
   padding: 48px 40px;
   text-decoration: none;
+  font-weight: bold;
   font-size: 17px;
 }
 .topnav a.logo {
@@ -109,7 +110,7 @@ div.icon>a {
 
 /* Add an active class to highlight the current page */
 .topnav a.active {
-  background-color: red;
+  background-color: #c2202f;
   color: white;
 }
 .topnav a.active:hover {
@@ -161,13 +162,13 @@ footer {
   background-color: black;
   text-align: center;
   left: 0;
-  bottom: 0;
+  bottom: 0%;
   width: 100%;
 }
 
 
 .button {
-  background-color: red;
+  background-color: #c2202f;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -212,7 +213,7 @@ fieldset {
 }
 
 fieldset legend {
-  background: red;
+  background: #c2202f;
   color: white;
   padding: 5px 10px 0px 10px;
   font-size: 15px;
