@@ -4,6 +4,14 @@ body {
   color: white;
 }
 
+img.registrationlogo {
+  padding: 25px;
+  border-radius: 25%;
+}
+img.registrationlogo:hover {
+  background-color: red;
+}
+
 p>a {
   color: white;
   text-decoration: underline;
@@ -69,23 +77,28 @@ div.icon>a {
 }
 
 /* Style the links inside the navigation bar */
-.topnav a {
+.topnav a.element {
   float: left;
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 48px 40px;
   text-decoration: none;
   font-size: 17px;
+}
+.topnav a.logo {
+  float: left;
+  display: block;
+  padding: 5px 5px 0px 5px;
 }
 .topnav spaziatura.space {
   float: left;
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 48px 40px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 0px;
 }
 
 /* Change the color of links on hover */
@@ -106,6 +119,13 @@ div.icon>a {
 
 /* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 48px 40px;
+  text-decoration: none;
+  font-size: 17px;
   display: none;
 }
 
