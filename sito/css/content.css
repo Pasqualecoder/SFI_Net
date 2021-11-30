@@ -1,0 +1,32 @@
+body {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+}
+
+h1.nomecontent {
+    text-align: center;
+    font-size: 3cm;
+}
+
+div.corpo {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 15px 15px 15px 15px;
+}
+
+table.info {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table.info > td {
+    padding: 20px 20px 20px 20px;
+}
+
+td.trama {
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    font-size: larger;
+}
