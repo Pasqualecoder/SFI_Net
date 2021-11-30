@@ -15,13 +15,18 @@ div.corpo {
 }
 
 table.info {
-    width: 1000px;
+    width: fit-content;
     margin-left: auto;
     margin-right: auto;
 }
 
-table.info > td {
+td.locandinatabella {
     padding: 20px 20px 20px 20px;
+}
+
+img.locandinafoto {
+    width: 500px;
+    height: 700px;
 }
 
 td.trama {
@@ -29,4 +34,10 @@ td.trama {
     font-weight: bold;
     font-style: italic;
     font-size: larger;
+}
+
+table.episodi {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
 }
