@@ -5,10 +5,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer">
 
-
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/core.css">
-    <link rel="stylesheet" href="../css/content.css">
     <title>SFI_Net: Film e Serie TV</title>
   </head>
 
@@ -16,94 +13,75 @@
     
     <!--NAVBAR-->
     <div class="topnav" id="myTopnav">
-      <a href="home.html" class="active logo"><img src="../media/logo/logo-final.png" width="100px"></a>
-      <a href="home.html" class="active element">Home <i class="fa fa-home"></i></a>
-      <a href="film.html" class="element">Film <i class="fa fa-film"></i></a>
-      <a href="serie.html" class="element">Serie TV <i class="fa fa-tv"></i></a>
+      <a href="home.html" class="logo"><img src="../media/logo/logo-final.png" width="100px"></a>
+      <a href="home.html" class="element">Home</a>
+      <a href="film.html" class="element">Film</a>
+      <a href="#about" class="element">Serie TV</a>
 
       <spaziatura class="space"></spaziatura>
-      <a href="#about" class="element">Informazioni</a>
+      <a href="#about" class="active element">Informazioni</a>
       <a href="contattaci.html" class="element"><i class="fa fa-fw fa-envelope"></i>Contattaci</a>
       
-      <spaziatura class="space"></spaziatura>
-      <a class="element">Cerca Film o Serie TV: &nbsp;&nbsp;<input type="text" name="search" id="search"></a>
       
+      <!--TODO: search bar -->
       <a href="signup.html" class="element" style="float: right;"><i class="fa fa-fw fa-user-plus"></i>Sign up</a>
       <a href="login.html" class="element" style="float: right;"><i class="fa fa-fw fa-user"></i>Log in</a>
       <a href="javascript:void(0);" class="icon" onclick="responsiveTopBar()"><i class="fa fa-bars"></i></a>
     </div>
     <!--NAVBAR-->
     <br><br><br><br><br><br>
-    
+
     
     <!--CORPO DELLA PAGINA-->
-    <div>
-      <h1 style="text-align: center; font-size: 2cm; color: #c2202f; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;"> <i class="fa fa-star" style="color: gold;"></i> Benvenuto su SFI_Net! <i class="fa fa-star" style="color: gold;"></i></h1>
-      <h3><em>SerieTV, Film, Informatica Network</em></h3>
-      <h3><em>Guarda qui i tuoi film e le tue serie preferite senza limiti!</em></h3>
+     
+    <div align="center"><a href="home.html"><img class="registrationlogo" src="../media/logo/logo-final.png" width="200" ></a></div>
 
-      <br><br>
+    <fieldset> 
+      <legend style="width: fit-content;" align="left"><h1 style="width: fit-content;">Chi Siamo?</h1></legend>
+        <div class="informazionileft" style="float:left; font-weight: x-large;">
+          <p class="informazioni">
+            Siamo un gruppo di amici che studia informatica <br> 
+            Abbiamo deciso di pubblicare un sito che offre un servizio di streaming.<br><br>
+            Speriamo che il nostro sito possa essere di vostro gradimento<br><br>
+            Se volete contattarci a destra trovate i <u>nostri social</u> <i class="fa fa-arrow-right"></i> <br>
+            Oppure potete contattarci a questo indirizzo email:<br>
+            <a style="font-size: larger;" href="mailto:sfinetwork@informazioni.net">sfinetwork@informazioni.net</a> <br><br>
+            La nostra sede si trova presso:<br>
+            Via Favonio ,123
+          </p>
+        </div>
 
-      <h1 class="categoria">Ultime Uscite <i class="fa fa-newspaper"></i></h1>
-      <div class="scroll">
-        <div class="film">
-          <a href="film/theiceroad.html" class="linktofilm">
-            <div class="filmcontainer">
-              <img src="../media/filmpic/theiceroad.jpg" class="locandina">
-              <h3>L'Uomo dei Ghiacci - The Ice Road</h3>
+        <div  style="width:fit-content; display: inline;">
+          <div class="box">
+            <div class="icon instagram">
+              <a href="https://instagram.com"><i class="fab fa-instagram fa-2x"></i></a>
             </div>
-          </a>
+            <p class="social"><a href="https://instagram.com">Instagram</a></p>
         </div>
-        <div class="film">
-          <a href="film/ghostbusterslegacy.html" class="linktofilm">
-            <div class="filmcontainer">
-              <img src="../media/filmpic/ghostbusterslegacy.jpg" class="locandina">
-              <h3>Ghost Busters - Legacy</h3>
-            </div>
-          </a>
-        </div>
-        <div class="film">
-          <a href="film/maradona.html" class="linktofilm">
-            <div class="filmcontainer">
-              <img src="../media/filmpic/maradona.jpg" class="locandina">
-              <h3>Diego Maradona</h3>
-            </div>
-          </a>
-        </div>
-        <div class="film">
-          <a href="film/7prisoners.html" class="linktofilm">
-            <div class="filmcontainer">
-              <img src="../media/filmpic/7prisoners.jpg" class="locandina">
-              <h3>7 Prisoners</h3>
-            </div>
-          </a>
-        </div>
-        <div class="film">
-          <a href="film/happierthanever.html" class="linktofilm">
-            <div class="filmcontainer">
-              <img src="../media/filmpic/happierthanever.jpg" class="locandina">
-              <h3>Happier Than Ever</h3>
-            </div>
-          </a>
-        </div>
-        <div class="film">
-          <a href="film/lego.html" class="linktofilm">
-            <div class="filmcontainer">
-              <img src="../media/filmpic/lego.jpg" class="locandina">
-              <h3>LEGO Star Wars Racconti Spaventosi</h3>
-            </div>
-          </a>
-        </div>
-      <div style="clear:both;"></div>
 
-      
-      <h3>Film Vincitori degli Oscar</h3> <br> ++++++++++++++
-      <h3>Serie più viste</h3> <br> ++++++++++++++
-      <h3>Popolari</h3> <br> ++++++++++++++
-      <h3>Classici</h3> <br> ++++++++++++++
-      
-    </div>
+        <div class="box">
+            <div class="icon facebook">
+              <a href="https://facebook.com"><i class="fab fa-facebook fa-2x"></i></a>
+            </div>
+            <p class="social"><a href="https://facebook.com">Facebook</a></p>
+        </div>
+        <div class="box">
+            <div class="icon twitter">
+              <a href="https://twitter.com"><i class="fab fa-twitter fa-2x"></i></a>
+            </div>
+            <p class="social"><a href="https://twitter.com">Twitter</a></p>
+        </div>
+        <div class="box">
+            <div class="icon whatsapp">
+              <a href="https://whatsapp.com"><i class="fab fa-whatsapp fa-2x"></i></a>
+            </div>
+            <p class="social"><a href="https://whatsapp.com">Whatsapp</a></p>
+        </div>
+      </div> 
+    </fieldset>
+
     
+  <br><br>
     <!--FOOTER-->
     <footer>
       <table style="width: 100%;">
@@ -147,7 +125,7 @@
           </td>
 
           <td>
-            <a href="template.html"><em>SFI_Net &copy; 2020-2021</em></a>
+            <a style="font-size: x-large;" href="template.html"><em>SFI_Net &copy; 2020-2021</em></a>
           </td>    
         </tr>
       </table>
