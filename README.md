@@ -64,6 +64,7 @@ La scelta del modello da utilizzare è ricaduta sul classico **modello gerarchic
 Per questo motivo il target di utenza di SFI_Net è quello degli **utenti meno esperti, alle prime armi con il PC, non specializzato e occasionale (fascia d'età compresa tra i 6 anni, con l'accompagnamento dei genitori, fino a qualsiasi età con particolare attenzione agli adolescenti)**. Dunque il bacino di utenza è molto ampio poiché non esclude gli esperti. Le scelte adattative per questo aspetto riguardano la **semplicità d'uso**, **le sezioni del sito facilmente reperibili** e **l'utilizzo di icone affianco alle scritte**.
 
 ---
+<br>
 
 ## Pubblicazione e Pubblicizzazione
 
