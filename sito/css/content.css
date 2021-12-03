@@ -1,0 +1,43 @@
+body {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+}
+
+h1.nomecontent {
+    text-align: center;
+    font-size: 3cm;
+}
+
+div.corpo {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 15px 15px 15px 15px;
+}
+
+table.info {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td.locandinatabella {
+    padding: 20px 20px 20px 20px;
+}
+
+img.locandinafoto {
+    width: 500px;
+    height: 700px;
+}
+
+td.trama {
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    font-size: larger;
+}
+
+table.episodi {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}

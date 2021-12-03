@@ -15,16 +15,17 @@
     <!--NAVBAR-->
     <div class="topnav" id="myTopnav">
       <a href="home.html" class="logo"><img src="../media/logo/logo-final.png" width="100px"></a>
-      <a href="home.html" class="element">Home</a>
-      <a href="film.html" class="active element">Film</a>
-      <a href="#about" class="element">Serie TV</a>
+      <a href="home.html" class="element">Home <i class="fa fa-home"></i></a>
+      <a href="film.html" class="active element">Film <i class="fa fa-film"></i></a>
+      <a href="serie.html" class="element">Serie TV <i class="fa fa-tv"></i></a>
 
       <spaziatura class="space"></spaziatura>
-      <a href="#about" class="element">Informazioni</a>
+      <a href="informazioni.html" class="element">Informazioni</a>
       <a href="contattaci.html" class="element"><i class="fa fa-fw fa-envelope"></i>Contattaci</a>
       
+      <spaziatura class="space"></spaziatura>
+      <a class="element">Cerca Film o Serie TV: &nbsp;&nbsp;<input type="text" name="search" id="search"></a>
       
-      <!--TODO: search bar -->
       <a href="signup.html" class="element" style="float: right;"><i class="fa fa-fw fa-user-plus"></i>Sign up</a>
       <a href="login.html" class="element" style="float: right;"><i class="fa fa-fw fa-user"></i>Log in</a>
       <a href="javascript:void(0);" class="icon" onclick="responsiveTopBar()"><i class="fa fa-bars"></i></a>
@@ -32,10 +33,37 @@
     <!--NAVBAR-->
     <br><br><br><br><br><br>
 
+
+    <!--CORPO DELLA PAGINA-->
+    <h1 class="categoria">Categoria <i class="fa fa-film"></i></h1>
     <div class="scroll">
       <div class="film">
         <a href="film/aaa.html" class="linktofilm">
-          <div>
+          <div class="filmcontainer">
+            <img src="../media/filmpic/spiderman2.jpg" class="locandina">
+            <h3>Spiderman 2</h3>
+          </div>
+        </a>
+      </div>
+      <div class="film">
+        <a href="film/harrypotter.html" class="linktofilm">
+          <div class="filmcontainer">
+            <img src="../media/filmpic/harrypotter.jpg" class="locandina">
+            <h3>Harry Potter e la Pietra Filosofale</h3>
+          </div>
+        </a>
+      </div>
+      <div class="film">
+        <a href="film/shrek.html" class="linktofilm">
+          <div class="filmcontainer">
+            <img src="../media/filmpic/shrek.jpg" class="locandina">
+            <h3>Shrek</h3>
+          </div>
+        </a>
+      </div>
+      <div class="film">
+        <a href="film/aaa.html" class="linktofilm">
+          <div class="filmcontainer">
             <img src="../media/filmpic/spiderman2.jpg" class="locandina">
             <h3>Spiderman 2</h3>
           </div>
@@ -43,7 +71,7 @@
       </div>
       <div class="film">
         <a href="film/aaa.html" class="linktofilm">
-          <div>
+          <div class="filmcontainer">
             <img src="../media/filmpic/spiderman2.jpg" class="locandina">
             <h3>Spiderman 2</h3>
           </div>
@@ -51,7 +79,7 @@
       </div>
       <div class="film">
         <a href="film/aaa.html" class="linktofilm">
-          <div>
+          <div class="filmcontainer">
             <img src="../media/filmpic/spiderman2.jpg" class="locandina">
             <h3>Spiderman 2</h3>
           </div>
@@ -59,116 +87,142 @@
       </div>
       <div class="film">
         <a href="film/aaa.html" class="linktofilm">
-          <div>
+          <div class="filmcontainer">
             <img src="../media/filmpic/spiderman2.jpg" class="locandina">
             <h3>Spiderman 2</h3>
           </div>
         </a>
       </div>
-
+      <div class="film">
+        <a href="film/aaa.html" class="linktofilm">
+          <div class="filmcontainer">
+            <img src="../media/filmpic/spiderman2.jpg" class="locandina">
+            <h3>Spiderman 2</h3>
+          </div>
+        </a>
+      </div>
+      <div class="film">
+        <a href="film/aaa.html" class="linktofilm">
+          <div class="filmcontainer">
+            <img src="../media/filmpic/spiderman2.jpg" class="locandina">
+            <h3>Spiderman 2</h3>
+          </div>
+        </a>
+      </div>
+      <div class="film">
+        <a href="film/aaa.html" class="linktofilm">
+          <div class="filmcontainer">
+            <img src="../media/filmpic/spiderman2.jpg" class="locandina">
+            <h3>Spiderman 2</h3>
+          </div>
+        </a>
+      </div>
+      <div class="film">
+        <a href="film/aaa.html" class="linktofilm">
+          <div class="filmcontainer">
+            <img src="../media/filmpic/spiderman2.jpg" class="locandina">
+            <h3>Spiderman 2</h3>
+          </div>
+        </a>
+      </div>
     </div> 
     <div style="clear:both;"></div>
-
-    <br><br><br><br><br><br>
-    <br><br><br><br><br><br>
-
     
-    <!--CORPO DELLA PAGINA-->
-    <div>
-
-      <table class="film">
-        <tr class="title" style="text-align: left;">
-          <th colspan="11"><h1>Film D'Azione</h1></th>
-        </tr>
-
-        <tr>
-          <td class="elementimg">
-              <a href="film/aaa.html" class="linktofilm">
-                <div>
-                  <img src="../media/filmpic/spiderman2.jpg" class="locandina">
-                  <h3>Spiderman 2</h3>
-                </div>  
-              </a>
-          </td>
-
-          <td class="elementimg">
-            <a href="film/aaa.html" class="linktofilm">
-              <div>
-                <img src="../media/filmpic/fastandfurious9.jpg" class="locandina">
-                <h3>Fast and Furious 9</h3>
-              </div>  
-            </a>
-          </td>
-
-          <td class="elementimg">
-            <a href="film/aaa.html" class="linktofilm">
-              <div>
-                <img src="../media/filmpic/shrek.jpg" class="locandina">
-                <h3>Shrek</h3>
-              </div>  
-            </a>
-          </td>
-
-          <td class="elementimg">
-            <a href="film/aaa.html" class="linktofilm">
-              <div>
-                <img src="../media/filmpic/avengersendgame.jpg" class="locandina">
-                <h3>Avengers: Endgame</h3>
-              </div>  
-            </a>
-          </td>
-        </tr>
-      </table>
-
-      <br><br><br>
-      
-      <table class="film">
-        <tr class="title" style="text-align: left;">
-          <th colspan="11"><h1>Commedie</h1></th>
-        </tr>
-
-        <tr>
-          <td class="elementimg">
-              <a href="film/aaa.html" class="linktofilm">
-                <div>
-                  <img src="../media/filmpic/spiderman2.jpg" class="locandina">
-                  <h3>Spiderman 2</h3>
-                </div>  
-              </a>
-          </td>
-
-          <td class="elementimg">
-            <a href="film/aaa.html" class="linktofilm">
-              <div>
-                <img src="../media/filmpic/fastandfurious9.jpg" class="locandina">
-                <h3>Fast and Furious 9</h3>
-              </div>  
-            </a>
-          </td>
-
-          <td class="elementimg">
-            <a href="film/aaa.html" class="linktofilm">
-              <div>
-                <img src="../media/filmpic/shrek.jpg" class="locandina">
-                <h3>Shrek</h3>
-              </div>  
-            </a>
-          </td>
-
-          <td class="elementimg">
-            <a href="film/aaa.html" class="linktofilm">
-              <div>
-                <img src="../media/filmpic/avengersendgame.jpg" class="locandina">
-                <h3>Avengers: Endgame</h3>
-              </div>  
-            </a>
-          </td>
-        </tr>
-      </table>
-        
-        
-        
-    </div>
+    <br><br><br>
+    
+    <h1 class="categoria">Categoria <i class="fa fa-film"></i></h1>
+    <div class="scroll">
+      <div class="film">
+        <a href="film/aaa.html" class="linktofilm">
+          <div class="filmcontainer">
+            <img src="../media/filmpic/spiderman2.jpg" class="locandina">
+            <h3>Spiderman 2</h3>
+          </div>
+        </a>
+      </div>
+      <div class="film">
+        <a href="film/aaa.html" class="linktofilm">
+          <div class="filmcontainer">
+            <img src="../media/filmpic/spiderman2.jpg" class="locandina">
+            <h3>Spiderman 2</h3>
+          </div>
+        </a>
+      </div>
+      <div class="film">
+        <a href="film/aaa.html" class="linktofilm">
+          <div class="filmcontainer">
+            <img src="../media/filmpic/spiderman2.jpg" class="locandina">
+            <h3>Spiderman 2</h3>
+          </div>
+        </a>
+      </div>
+      <div class="film">
+        <a href="film/aaa.html" class="linktofilm">
+          <div class="filmcontainer">
+            <img src="../media/filmpic/spiderman2.jpg" class="locandina">
+            <h3>Spiderman 2</h3>
+          </div>
+        </a>
+      </div>
+      <div class="film">
+        <a href="film/aaa.html" class="linktofilm">
+          <div class="filmcontainer">
+            <img src="../media/filmpic/spiderman2.jpg" class="locandina">
+            <h3>Spiderman 2</h3>
+          </div>
+        </a>
+      </div>
+      <div class="film">
+        <a href="film/aaa.html" class="linktofilm">
+          <div class="filmcontainer">
+            <img src="../media/filmpic/spiderman2.jpg" class="locandina">
+            <h3>Spiderman 2</h3>
+          </div>
+        </a>
+      </div>
+      <div class="film">
+        <a href="film/aaa.html" class="linktofilm">
+          <div class="filmcontainer">
+            <img src="../media/filmpic/spiderman2.jpg" class="locandina">
+            <h3>Spiderman 2</h3>
+          </div>
+        </a>
+      </div>
+      <div class="film">
+        <a href="film/aaa.html" class="linktofilm">
+          <div class="filmcontainer">
+            <img src="../media/filmpic/spiderman2.jpg" class="locandina">
+            <h3>Spiderman 2</h3>
+          </div>
+        </a>
+      </div>
+      <div class="film">
+        <a href="film/aaa.html" class="linktofilm">
+          <div class="filmcontainer">
+            <img src="../media/filmpic/spiderman2.jpg" class="locandina">
+            <h3>Spiderman 2</h3>
+          </div>
+        </a>
+      </div>
+      <div class="film">
+        <a href="film/aaa.html" class="linktofilm">
+          <div class="filmcontainer">
+            <img src="../media/filmpic/spiderman2.jpg" class="locandina">
+            <h3>Spiderman 2</h3>
+          </div>
+        </a>
+      </div>
+      <div class="film">
+        <a href="film/aaa.html" class="linktofilm">
+          <div class="filmcontainer">
+            <img src="../media/filmpic/spiderman2.jpg" class="locandina">
+            <h3>Spiderman 2</h3>
+          </div>
+        </a>
+      </div>
+    </div> 
+    <div style="clear:both;"></div>
+    
 
     
     

@@ -7,6 +7,8 @@
 
 
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/core.css">
+    <link rel="stylesheet" href="../css/content.css">
     <title>SFI_Net: Film e Serie TV</title>
   </head>
 
@@ -15,14 +17,16 @@
     <!--NAVBAR-->
     <div class="topnav" id="myTopnav">
       <a href="home.html" class="active logo"><img src="../media/logo/logo-final.png" width="100px"></a>
-      <a href="home.html" class="active element">Home</a>
-      <a href="#about" class="element">Film</a>
-      <a href="#about" class="element">Serie TV</a>
+      <a href="home.html" class="active element">Home <i class="fa fa-home"></i></a>
+      <a href="film.html" class="element">Film <i class="fa fa-film"></i></a>
+      <a href="serie.html" class="element">Serie TV <i class="fa fa-tv"></i></a>
 
       <spaziatura class="space"></spaziatura>
-      <a href="#about" class="element">Informazioni</a>
+      <a href="informazioni.html" class="element">Informazioni</a>
       <a href="contattaci.html" class="element"><i class="fa fa-fw fa-envelope"></i>Contattaci</a>
       
+      <spaziatura class="space"></spaziatura>
+      <a class="element">Cerca Film o Serie TV: &nbsp;&nbsp;<input type="text" name="search" id="search"></a>
       
       <a href="signup.html" class="element" style="float: right;"><i class="fa fa-fw fa-user-plus"></i>Sign up</a>
       <a href="login.html" class="element" style="float: right;"><i class="fa fa-fw fa-user"></i>Log in</a>
@@ -34,13 +38,191 @@
     
     <!--CORPO DELLA PAGINA-->
     <div>
-      <h1 id="ilmiotitolo">Benvenuto</h1>
+      <h1 style="text-align: center; font-size: 2cm; color: #c2202f; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;"> <i class="fa fa-star" style="color: gold;"></i> Benvenuto su SFI_Net! <i class="fa fa-star" style="color: gold;"></i></h1>
+      <h3><em>SerieTV, Film, Informatica Network</em></h3>
+      <h3><em>Guarda qui i tuoi film e le tue serie preferite senza limiti!</em></h3>
+
+      <br><br>
+
+      <h1 class="categoria">Ultime Uscite <i class="fa fa-newspaper"></i></h1>
+      <div class="scroll">
+        <div class="film">
+          <a href="film/theiceroad.html" class="linktofilm">
+            <div class="filmcontainer">
+              <img src="../media/filmpic/theiceroad.jpg" class="locandina">
+              <h3>L'Uomo dei Ghiacci - The Ice Road</h3>
+            </div>
+          </a>
+        </div>
+        <div class="film">
+          <a href="serie/lupin.html" class="linktofilm">
+            <div class="filmcontainer">
+              <img src="../media/seriepic/lupin.jpg" class="locandina">
+              <h3>Lupin</h3>
+            </div>
+          </a>
+        </div>
+        <div class="film">
+          <a href="film/ghostbusterslegacy.html" class="linktofilm">
+            <div class="filmcontainer">
+              <img src="../media/filmpic/ghostbusterslegacy.jpg" class="locandina">
+              <h3>Ghost Busters - Legacy</h3>
+            </div>
+          </a>
+        </div>
+        <div class="film">
+          <a href="film/maradona.html" class="linktofilm">
+            <div class="filmcontainer">
+              <img src="../media/filmpic/maradona.jpg" class="locandina">
+              <h3>Diego Maradona</h3>
+            </div>
+          </a>
+        </div>
+        <div class="film">
+          <a href="film/7prisoners.html" class="linktofilm">
+            <div class="filmcontainer">
+              <img src="../media/filmpic/7prisoners.jpg" class="locandina">
+              <h3>7 Prisoners</h3>
+            </div>
+          </a>
+        </div>
+        <div class="film">
+          <a href="film/happierthanever.html" class="linktofilm">
+            <div class="filmcontainer">
+              <img src="../media/filmpic/happierthanever.jpg" class="locandina">
+              <h3>Happier Than Ever</h3>
+            </div>
+          </a>
+        </div>
+        <div class="film">
+          <a href="film/lego.html" class="linktofilm">
+            <div class="filmcontainer">
+              <img src="../media/filmpic/lego.jpg" class="locandina">
+              <h3>LEGO Star Wars Racconti Spaventosi</h3>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div style="clear:both;"></div>
+      <br><br><br>
+
       
-      <h3>Ultime Uscite</h3> <br> ++++++++++++++
-      <h3>Film Vincitori degli Oscar</h3> <br> ++++++++++++++
-      <h3>Serie più viste</h3> <br> ++++++++++++++
-      <h3>Popolari</h3> <br> ++++++++++++++
-      <h3>Classici</h3> <br> ++++++++++++++
+      <h1 class="categoria">Film Vincitori di Oscar <i class="fa fa-trophy" style="color: gold;"></i></h1>
+      <div class="scroll">
+        <div class="film">
+          <a href="film/bohemianrhapsody.html" class="linktofilm">
+            <div class="filmcontainer">
+              <img src="../media/filmpic/bohemianrhapsody.jpg" class="locandina">
+              <h3>Bohemian Rhapsody</h3>
+            </div>
+          </a>
+        </div>
+        <div class="film">
+          <a href="film/astartisborn.html" class="linktofilm">
+            <div class="filmcontainer">
+              <img src="../media/filmpic/astarisborn.jpg" class="locandina">
+              <h3>A Star is Born</h3>
+            </div>
+          </a>
+        </div>
+        <div class="film">
+          <a href="film/joker.html" class="linktofilm">
+            <div class="filmcontainer">
+              <img src="../media/filmpic/joker.jpg" class="locandina">
+              <h3>Joker</h3>
+            </div>
+          </a>
+        </div>
+        <div class="film">
+          <a href="film/americansniper.html" class="linktofilm">
+            <div class="filmcontainer">
+              <img src="../media/filmpic/americansniper.jpg" class="locandina">
+              <h3>American Sniper</h3>
+            </div>
+          </a>
+        </div>
+        <div class="film">
+          <a href="film/theimitationgame.html" class="linktofilm">
+            <div class="filmcontainer">
+              <img src="../media/filmpic/theimitationgame.jpg" class="locandina">
+              <h3>The Imitation Game</h3>
+            </div>
+          </a>
+        </div>
+        <div class="film">
+          <a href="film/ilgladiatore.html" class="linktofilm">
+            <div class="filmcontainer">
+              <img src="../media/filmpic/ilgladiatore.jpg" class="locandina">
+              <h3>Il Gladiatore</h3>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div style="clear:both;"></div>
+      <br><br><br>
+
+
+
+      <h1 class="categoria">Migliori Serie TV di sempre <i class="fa fa-tv"></i></h1>
+      <div class="scroll">
+        <div class="film">
+          <a href="serie/breakingbad.html" class="linktofilm">
+            <div class="filmcontainer">
+              <img src="../media/seriepic/breakingbad.jpg" class="locandina">
+              <h3>Breaking Bad</h3>
+            </div>
+          </a>
+        </div>
+        <div class="film">
+          <a href="serie/iltronodispade.html" class="linktofilm">
+            <div class="filmcontainer">
+              <img src="../media/seriepic/iltronodispade.jpg" class="locandina">
+              <h3>Il Trono di Spade</h3>
+            </div>
+          </a>
+        </div>
+        <div class="film">
+          <a href="serie/medici.html" class="linktofilm">
+            <div class="filmcontainer">
+              <img src="../media/seriepic/medici.jpg" class="locandina">
+              <h3>I Medici</h3>
+            </div>
+          </a>
+        </div>
+        <div class="film">
+          <a href="serie/prisonbreak.html" class="linktofilm">
+            <div class="filmcontainer">
+              <img src="../media/seriepic/prisonbreak.jpg" class="locandina">
+              <h3>Prison Break</h3>
+            </div>
+          </a>
+        </div>
+        <div class="film">
+          <a href="serie/narcos.html" class="linktofilm">
+            <div class="filmcontainer">
+              <img src="../media/seriepic/narcos.jpg" class="locandina">
+              <h3>Narcos</h3>
+            </div>
+          </a>
+        </div>
+        <div class="film">
+          <a href="serie/chicagofire.html" class="linktofilm">
+            <div class="filmcontainer">
+              <img src="../media/seriepic/chicagofire.jpg" class="locandina">
+              <h3>Chicago Fire</h3>
+            </div>
+          </a>
+        </div>
+        <div class="film">
+          <a href="serie/lacasadicarta.html" class="linktofilm">
+            <div class="filmcontainer">
+              <img src="../media/seriepic/lacasadicarta.jpg" class="locandina">
+              <h3>La Casa di Carta</h3>
+            </div>
+          </a>
+        </div>
+      <div style="clear:both;"></div>
+      <br><br><br>
       
     </div>
     
