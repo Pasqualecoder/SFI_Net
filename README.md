@@ -1,6 +1,8 @@
 # SFI_Net
 ## Serie, Film, Informatica Network
-![logo](sito\media\logo\logo-final.png)
+
+<img src="https://github.com/Pasqualecoder/SFI_Net/blob/main/sito/media/logo/logo-final.png" width="500px">
+
 ### Gruppo E
   - Younse Fannane
   - Pasquale Muraca
@@ -37,7 +39,7 @@ Realizzazione sito tramite linguaggio HTML, CSS, JavaScript.
 Nella prima fase di **analisi** è stato necessario **analizzare e stabilire i requisiti del sito richiesto**, ovvero tutti i servizi base che il sito doveva offrire.
 Il punto di partenza è la soddisfazione delle **richieste del committente**, cercando di trovare una **soluzione generale sul come e perché effettuare determinate scelte.** 
 
-Sono quindi stati **definiti i requisiti ed è stato messo in chiaro il contenuto** del nostro sito: una piattaforma di streaming sulla quale è possibile accedere facilmente ad un vasto catalogo di film e serie tv. Il passo successivo è stata la definizione della **struttura delle aree** del sito ([rappresentate nel seguente schema](docmedia\struttura.html)): ![img](docmedia\struttura.jpg) 
+Sono quindi stati **definiti i requisiti ed è stato messo in chiaro il contenuto** del nostro sito: una piattaforma di streaming sulla quale è possibile accedere facilmente ad un vasto catalogo di film e serie tv. Il passo successivo è stata la definizione della **struttura delle aree** del sito ([rappresentate nel seguente schema](https://github.com/Pasqualecoder/SFI_Net/blob/main/docmedia/struttura.html)): ![struttura](https://github.com/Pasqualecoder/SFI_Net/blob/main/docmedia/struttura.jpg) 
 
 ---
 <br>
