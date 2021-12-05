@@ -130,8 +130,8 @@ div.icon>a {
   display: none;
 }
 
-/* modifica i contenuti della navbar su schermi minori di 900pc */
-@media screen and (max-width: 900px) {
+/* modifica i contenuti della navbar su schermi minori di 1000px */
+@media screen and (max-width: 1000px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
@@ -140,7 +140,7 @@ div.icon>a {
 }
 
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive a.icon {
     position: absolute;
