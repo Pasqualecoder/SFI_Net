@@ -65,7 +65,7 @@ div.icon>a {
 }
 
 /*NAVIGATION BAR*/
-/* Add a black background color to the top navigation */
+/* sfondo nero al background */
 .topnav {
   top: 0;
   left: 0;
@@ -76,7 +76,7 @@ div.icon>a {
   overflow: hidden;
 }
 
-/* Style the links inside the navigation bar */
+/* stile dei link degli elementi della navbar */
 .topnav a.element {
   float: left;
   display: block;
@@ -102,13 +102,13 @@ div.icon>a {
   font-size: 0px;
 }
 
-/* Change the color of links on hover */
+/* cambia il colore dei link nella barra di nav */
 .topnav a:hover {
   background-color: black;
   color: white;
 }
 
-/* Add an active class to highlight the current page */
+/* colora la sezione attiva */
 .topnav a.active {
   background-color: #c2202f;
   color: white;
@@ -118,7 +118,7 @@ div.icon>a {
   color: white;
 }
 
-/* Hide the link that should open and close the topnav on small screens */
+/* nasconde i link per gli schermi piccoli */
 .topnav .icon {
   float: left;
   display: block;
@@ -130,7 +130,7 @@ div.icon>a {
   display: none;
 }
 
-/* When the screen is less than 900 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+/* modifica i contenuti della navbar su schermi minori di 900pc */
 @media screen and (max-width: 900px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
@@ -139,7 +139,7 @@ div.icon>a {
   }
 }
 
-/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+
 @media screen and (max-width: 900px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive a.icon {
@@ -153,7 +153,7 @@ div.icon>a {
     text-align: left;
   }
 }
-/*NAVIGATION BAR*/
+/*FINE NAVIGATION BAR*/
 
 
 /*FOOTER*/
